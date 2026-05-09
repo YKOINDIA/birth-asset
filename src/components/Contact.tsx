@@ -1,3 +1,7 @@
+"use client";
+
+import { QRCodeSVG } from "qrcode.react";
+
 export default function Contact() {
   return (
     <section id="contact" className="px-6 py-24">
@@ -6,7 +10,30 @@ export default function Contact() {
         <p className="mt-4 text-zinc-400">
           サービスに関するご質問・ご相談はお気軽にお問い合わせください。
         </p>
-        <div className="mt-8 flex flex-col items-center gap-4 sm:flex-row sm:justify-center">
+
+        <div className="mt-8 flex justify-center">
+          <a
+            href="https://line.me/ti/p/OQDDi5SIDX"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="inline-block rounded-2xl bg-white p-4"
+          >
+            <QRCodeSVG
+              value="https://line.me/ti/p/OQDDi5SIDX"
+              size={180}
+              level="M"
+              imageSettings={{
+                src: "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24'%3E%3Crect width='24' height='24' rx='5' fill='%2306C755'/%3E%3Cpath fill='white' d='M19.365 9.863c.349 0 .63.285.63.631 0 .345-.281.63-.63.63H17.61v1.125h1.755c.349 0 .63.283.63.63 0 .344-.281.629-.63.629h-2.386a.63.63 0 0 1-.63-.629V8.108c0-.345.281-.63.63-.63h2.386c.349 0 .63.285.63.63 0 .349-.281.63-.63.63H17.61v1.125h1.755zm-3.855 3.016a.63.63 0 0 1-.63.629.626.626 0 0 1-.51-.262l-2.455-3.326v2.958a.633.633 0 0 1-.63.63.63.63 0 0 1-.63-.63V8.108a.63.63 0 0 1 .63-.63c.2 0 .385.096.51.262l2.455 3.326V8.108a.63.63 0 0 1 1.26 0v4.771zm-5.741 0a.63.63 0 0 1-1.26 0V8.108a.63.63 0 0 1 1.26 0v4.771zm-2.527.629H4.856a.63.63 0 0 1-.63-.629V8.108a.63.63 0 0 1 1.26 0v4.141h1.756c.348 0 .629.283.629.63 0 .344-.281.629-.629.629M12 1C5.373 1 0 5.373 0 12s5.373 11 12 11 12-4.373 12-11S18.627 1 12 1'/%3E%3C/svg%3E",
+                height: 36,
+                width: 36,
+                excavate: true,
+              }}
+            />
+          </a>
+        </div>
+        <p className="mt-3 text-xs text-zinc-500">QRコードをスキャンしてLINEで友だち追加</p>
+
+        <div className="mt-6 flex flex-col items-center gap-4 sm:flex-row sm:justify-center">
           <a
             href="https://line.me/ti/p/OQDDi5SIDX"
             target="_blank"
