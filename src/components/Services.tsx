@@ -1,26 +1,22 @@
 const services = [
   {
     name: "TaxiPro",
-    description:
-      "タクシードライバー向けの業務効率化プラットフォーム。売上管理・ルート最適化をサポート。",
+    description: "タクシードライバーの売上管理・分析アプリ",
     icon: "🚖",
   },
   {
     name: "FILMO",
-    description:
-      "映像クリエイターとクライアントをつなぐマッチングサービス。制作から納品までをワンストップで。",
+    description: "映像制作のマッチングプラットフォーム",
     icon: "🎬",
   },
   {
     name: "FIGHT DEMAND",
-    description:
-      "格闘技ファン向けの試合予想・バーチャル支援表明アプリ。推し選手を応援しよう。",
+    description: "格闘技の試合予想・ファン支援アプリ",
     icon: "🥊",
   },
   {
     name: "NatureQuest",
-    description:
-      "自然体験×テクノロジー。アウトドアアクティビティをもっと身近に、もっと楽しく。",
+    description: "自然体験をもっと身近にするアウトドアアプリ",
     icon: "🌿",
   },
 ];

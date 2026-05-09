@@ -10,9 +10,9 @@ export default function About() {
           <table className="w-full text-left text-sm">
             <tbody>
               <Row label="会社名" value="バースアセット株式会社（Birth Asset Inc.）" />
-              <Row label="設立" value="—" />
-              <Row label="代表" value="—" />
-              <Row label="所在地" value="—" />
+              <Row label="設立" value="2018年" />
+              <Row label="代表" value="横尾忠司" />
+              <Row label="所在地" value="東京都足立区新田1-8-6" />
               <Row label="事業内容" value="モバイルアプリ・Webサービスの企画・開発・運営" />
             </tbody>
           </table>
