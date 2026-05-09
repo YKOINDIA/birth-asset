@@ -7,7 +7,7 @@ export default function Hero() {
         <span className="text-[var(--accent)]">新しい価値</span>を創る。
       </h1>
       <p className="mt-6 max-w-xl text-lg text-zinc-400">
-        バースアセット株式会社は、モビリティ・エンタメ・スポーツ・自然体験の領域で
+        社会問題の解決を優先的に取り組み、モビリティ・エンタメ・スポーツ・自然体験の領域で
         革新的なプロダクトを生み出しています。
       </p>
       <a

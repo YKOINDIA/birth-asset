@@ -14,6 +14,7 @@ export default function About() {
               <Row label="代表" value="横尾忠司" />
               <Row label="所在地" value="東京都足立区新田1-8-6" />
               <Row label="事業内容" value="モバイルアプリ・Webサービスの企画・開発・運営" />
+              <Row label="受託・協業" value="Webサービス・iOS/Androidアプリの開発（月額3万円〜）" />
             </tbody>
           </table>
         </div>
